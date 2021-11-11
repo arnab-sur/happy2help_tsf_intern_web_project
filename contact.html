@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>HAPPY2HELP : Donate to create a better world!</title>
+</head>
+<body>
+    <!--     NAV BAR     -->
+    <div class="navBar">
+        <ul>
+            <img id="logo" src="images/logo1.png">
+            <span class="gap"></span>
+            <li><a href="index.html"><i class="fas fa-home"></i>  Home</a></li>
+            <li><a href="about.html"><i class="fas fa-users"></i>  About Us</a></li>
+            <li><a href="contact.html" class="active"><i class="fas fa-address-book"></i>  Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <form id="form1">
+            <h3>PERSONAL INFO</h3>
+            <input type="text" class="fill_1" placeholder="First Name" required>
+            <input type="text" class="fill_1" placeholder="Last Name" required>
+            <input type="text" class="fill_1" placeholder="Mobile No." required>
+            <div class="btn-box">
+                <button type="button" id="next1">Next</button>
+            </div>
+        </form>
+
+        <form id="form2">
+            <h3>QUERY</h3>
+            <h4>Ask your query here...</h4> <br>   
+            <textarea name="" id="" cols="25" rows="7"></textarea>
+            <div class="btn-box">
+                <button type="button" id="back1">Back</button>
+                <button type="button" id="next2">Next</button> 
+            </div>
+        </form>
+
+        <form id="form3">
+            <h3>SUGGESTIONS</h3>
+            <h4>If you have any suggestion, write to us...</h4> <br>   
+            <textarea name="" id="" cols="25" rows="7"></textarea>
+            <div class="btn-box">
+                <button type="button" id="back2">Back</button>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Step 1</small></div>
+            <div class="step-col"><small>Step 2</small></div>
+            <div class="step-col"><small>Step 3</small></div>
+        </div>
+
+    </div>
+
+    <div class="footer glow">
+        <h4>Made with 🧡 by Arnab</h4>
+    </div>
+    <script src="javascript/contact.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
