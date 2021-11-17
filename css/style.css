@@ -152,7 +152,7 @@ ul li a{
 }
 
   /* Hide scrollbar for Chrome, Safari and Opera */
-  body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
 
