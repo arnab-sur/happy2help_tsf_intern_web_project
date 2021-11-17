@@ -7,7 +7,7 @@ body{
     width: 360px;
     height: 500px;
     margin: 5% auto;
-    background: rgb(235, 234, 213);
+    background: rgb(219, 219, 215);
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -16,7 +16,7 @@ body{
 h3{
     text-align: center;
     margin-bottom: 40px;
-    color: rgb(71, 65, 65);
+    color: rgb(85, 4, 4);
 }
 
 .container form{
@@ -51,7 +51,7 @@ form button{
     width: 110px;
     height: 35px;
     margin: 0 10px;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #041022, #61566b);
     border-radius: 30px;
     border: 0;
     outline: none;
@@ -80,7 +80,7 @@ form button{
 .step-col{
     width: 120px;
     text-align: center;
-    color: #333;
+    color: #fff;
     position: relative;
 }
 
@@ -88,7 +88,7 @@ form button{
     position: absolute;
     height: 100%;
     width: 120px;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #000a36, #6e5877);
     transition: 0.7s;
 }
 #progress::after{
@@ -100,5 +100,5 @@ form button{
     position: absolute;
     right: -20px;
     top: 0;
-    border-left: 20px solid #ffad06;
+    border-left: 20px solid #6e5877;
 }
