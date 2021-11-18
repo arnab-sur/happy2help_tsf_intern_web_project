@@ -45,10 +45,6 @@ body{
     text-align: center;
 }
 
-.card:nth-child(0){
-    margin-left: 0;
-}
-
 .card h3{
     font-size: 1.2rem;
     padding: 2vh;
