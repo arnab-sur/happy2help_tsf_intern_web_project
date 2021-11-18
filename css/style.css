@@ -79,6 +79,14 @@ ul li a{
     }
 }
 
+@media screen and (max-width: 720px){
+    .gap{
+        margin-left: 15vw;
+    }
+    ul li{
+        padding: 5px;
+    }
+}
 /* Content */
 .content{
     background-image: url(../images/index_bg.jpg);
@@ -152,7 +160,7 @@ ul li a{
 }
 
   /* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
+  body::-webkit-scrollbar {
     display: none;
 }
 
